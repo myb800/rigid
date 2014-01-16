@@ -1,0 +1,38 @@
+﻿Build started 1/10/2014 10:51:25 AM.
+     1>Project "C:\Users\yanbo\documents\visual studio 2012\Projects\rigid_body\rigid_body\rigid_body.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\rigid_body.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt body_system.cpp rigid_body.cpp vec.cpp
+         body_system.cpp
+     1>body_system.cpp(148): warning C4018: '<' : signed/unsigned mismatch
+     1>body_system.cpp(158): warning C4018: '<' : signed/unsigned mismatch
+     1>body_system.cpp(175): warning C4018: '<' : signed/unsigned mismatch
+     1>body_system.cpp(190): warning C4018: '<' : signed/unsigned mismatch
+     1>body_system.cpp(193): warning C4018: '<' : signed/unsigned mismatch
+     1>body_system.cpp(205): warning C4018: '<' : signed/unsigned mismatch
+     1>body_system.cpp(224): warning C4018: '<' : signed/unsigned mismatch
+     1>body_system.cpp(230): warning C4018: '<' : signed/unsigned mismatch
+     1>body_system.cpp(242): warning C4018: '<' : signed/unsigned mismatch
+     1>body_system.cpp(247): warning C4018: '<' : signed/unsigned mismatch
+     1>body_system.cpp(253): warning C4018: '<' : signed/unsigned mismatch
+     1>body_system.cpp(259): warning C4018: '<' : signed/unsigned mismatch
+     1>body_system.cpp(264): warning C4018: '<' : signed/unsigned mismatch
+     1>body_system.cpp(270): warning C4018: '<' : signed/unsigned mismatch
+     1>body_system.cpp(325): warning C4018: '<' : signed/unsigned mismatch
+     1>body_system.cpp(360): warning C4018: '<' : signed/unsigned mismatch
+     1>body_system.cpp(472): warning C4018: '<' : signed/unsigned mismatch
+     1>body_system.cpp(568): warning C4018: '<' : signed/unsigned mismatch
+         rigid_body.cpp
+         vec.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\yanbo\documents\visual studio 2012\Projects\rigid_body\Release\rigid_body.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\yanbo\documents\visual studio 2012\Projects\rigid_body\Release\rigid_body.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\yanbo\documents\visual studio 2012\Projects\rigid_body\Release\rigid_body.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO Release\body_system.obj
+         Release\rigid_body.obj
+         Release\stdafx.obj
+         Release\vec.obj
+         Generating code
+         Finished generating code
+         rigid_body.vcxproj -> C:\Users\yanbo\documents\visual studio 2012\Projects\rigid_body\Release\rigid_body.exe
+     1>Done Building Project "C:\Users\yanbo\documents\visual studio 2012\Projects\rigid_body\rigid_body\rigid_body.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.17
