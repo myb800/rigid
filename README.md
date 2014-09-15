@@ -1,4 +1,4 @@
-rigid
+rigid(A prototype for physics engine of games)
 =====
 1 rigid body simulaion
 2 currently only have non-penetration contrain
